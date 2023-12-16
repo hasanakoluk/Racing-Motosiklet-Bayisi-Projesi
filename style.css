@@ -1,0 +1,360 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.back{
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+}
+
+.register-container{
+   background: transparent;
+   backdrop-filter: blur(20px)
+}
+
+.login-back{
+    background-image: url(./back-image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+}
+
+.login-container{
+    background: transparent;
+    backdrop-filter: blur(20px)
+ }
+
+.sayfalar{
+    background-color:rgb(241, 19, 19);
+  
+}
+.sayfalar img{
+    width: 50px;
+}
+.sayfalar a{
+    color: seashell;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.marka-icon img{
+    width: 70px;
+    
+}
+.marka-icon img:hover{
+    filter: grayscale(100%);
+    opacity: 0.3;
+    
+}
+
+.e-clutch h2{
+    color:rgb(241, 19, 19);
+}
+
+.e-clutch p{
+   line-height: 40px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 16px;
+}
+.e-clutch img{
+    width: 600px;
+    height: 500px;
+}
+
+.e-clutch img:hover{
+    filter: contrast(200%);
+}
+
+.anahtar h2{
+    color:rgb(241, 19, 19);
+}
+
+.anahtar p{
+   line-height: 40px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 16px;
+}
+.anahtar img{
+    width: 600px;
+    height: 500px;
+
+}
+.anahtar img:hover{
+    filter: contrast(200%);
+}
+
+.bayiler h1{
+    color: rgb(241, 19, 19) ;
+    margin: 30px auto 30px auto;
+}
+
+.resim:hover{
+  transform: rotateY(360deg);
+  transition: 8s; 
+}
+
+.sepet div{
+   
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.foot{
+    background-color:rgb(241, 19, 19);
+    color: seashell;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 30px;
+}
+
+.fiyat-listesi img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.urunImgContainer{
+    width: 500px;
+    height: 550px;
+   
+}
+
+.urunImgContainer img{
+    width: 500px;
+    height: 500px;
+   transition: 1s;
+}
+.urunImgContainer img:hover{
+    transform: scale(1.1);
+}
+
+.fiyat h2{
+    color: rgb(241, 19, 19);
+}
+
+.fiyat span{
+    text-decoration:underline;
+    
+}
+
+.buton-troy img{
+    margin: 20px auto auto ;
+}
+
+.btn-hemen-al{
+   margin-bottom: 5px;
+   width: 50px;
+}
+
+.basket-icon{
+    display: flex;
+    width: 30px;
+    height: 30px;
+
+}
+
+.aktif {
+ border: solid;
+}
+
+@media(max-width: 1200px){
+    .e-clutch p{
+        
+        line-height: 25px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 14px;
+     }
+     .e-clutch img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .anahtar p{
+        line-height: 25px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 14px;
+     }
+     .anahtar img{
+         width: 400px;
+         height: 400px;
+     
+     }
+}
+
+
+@media(max-width: 990px){
+  
+    .foot{
+        font-size: 13px;
+        line-height: 25px;
+    }
+  
+    .btn-hemen-al{
+        margin-bottom: 45px;
+    }
+
+    .btn-hemen-al .basket-icon{
+       display: none;
+    
+    }
+
+    .urunImgContainer img{
+        width: 400px;
+        height: 400px;
+       
+    }
+
+    .e-clutch p{
+        line-height: 20px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 14px;
+        margin: 0px;
+        padding: 0px;
+     }
+     .e-clutch img{
+        width: 350px;
+        height: 350px;
+    }
+
+    .anahtar p{
+        line-height: 20px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 14px;
+     }
+     .anahtar img{
+         width: 350px;
+         height: 350px;
+     
+     }
+
+}
+
+@media(max-width: 770px){
+  
+   .urunImgContainer img{
+    width: 350px;
+    height: 350px;
+    margin-top: 35px;
+   }
+   .urunImgContainer {
+    width: 350px;
+    height: 350px;
+    margin-top: 35px;
+   }
+
+   .buton-troy img{
+    display: none;
+   }
+
+   .basket-icon{
+    display: none;
+   }
+
+   .info{
+    margin-left: 10px;
+   }
+
+   .e-clutch p{
+    height: 200px;
+    line-height: 15px;
+    font-size: 14px;
+    overflow-y: scroll;
+ }
+ .e-clutch img{
+    width: 250px;
+    height: 250px;
+}
+
+.anahtar p{
+    height: 200px;
+    line-height: 15px;
+    font-size: 14px;
+    overflow-y: scroll;
+ }
+ .anahtar img{
+     width: 250px;
+     height: 250px;
+ 
+ }
+
+ .carousel-item img{
+    width: 300px;
+    height: 250px;
+ }
+
+}
+
+@media(max-width: 760px){
+  
+    .foot ul:nth-child(2){
+       display: none;
+    }
+    .foot ul:nth-child(3){
+        display: none;
+     }
+
+}
+
+
+@media(max-width: 420px){
+  
+    .foot ul{
+       display: none;
+    }
+    .icon h2{
+        margin-left: 30px;
+    }
+    .sayfalar ul{
+        font-size: 13px;
+      
+    }
+    .sayfalar img{
+        width: 25px;
+    }
+    .marka-icon img{
+        width: 50px;
+        
+    }
+
+    .urunImgContainer {
+        width: 250px;
+        height: 250px;
+       
+    }
+    .urunImgContainer img{
+        width: 200px;
+        height: 200px;
+       
+    }
+
+    .info{
+        font-size: 12px;
+    }
+
+    .e-clutch p{
+        height: 100px;
+        line-height: 15px;
+        font-size: 14px;
+        overflow-y: scroll;
+     }
+     .e-clutch img{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .anahtar p{
+        height: 100px;
+        line-height: 15px;
+        font-size: 14px;
+        overflow-y: scroll;
+     }
+     .anahtar img{
+         width: 200px;
+         height: 200px;
+     
+     }
+
+}
+
+
